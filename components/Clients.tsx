@@ -20,7 +20,7 @@ const Clients = () => {
           <InfiniteMovingCards
             items={skills}
             direction="right"
-            speed="slow"
+            speed="normal"
           />
         </div>
 
