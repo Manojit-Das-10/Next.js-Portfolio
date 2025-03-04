@@ -75,6 +75,20 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "MediConnect",
+    des: "MediConnect – A seamless MERN stack platform where patients can book appointments with their preferred doctors and make secure online payments for a hassle-free healthcare experience. 🚀💙",
+    img: "/mediconnect.png",
+    iconLists: [
+      "/re.svg",
+      "/tail.svg",
+      "/Node.js.svg",
+      "/Mongodb.svg",
+      "/Express.png",
+    ],
+    link: "https://mediconnect-o3vu.onrender.com/",
+  },
+  {
+    id: 2,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
@@ -88,20 +102,12 @@ export const projects = [
     link: "https://manojit-das-iphone-ui.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "CaraCart - An Ecommerce Website",
     des: "Developed an e-commerce frontend with responsive design, intuitive navigation, and secure checkout.",
     img: "/caracart.png",
     iconLists: ["/HTML.png", "/tail.svg", "/CSS.png", "/Java Script.svg"],
     link: "https://caracart-manojit-das.netlify.app/",
-  },
-  {
-    id: 3,
-    title: "Tic-Tac-Toe Game",
-    des: "Created an interactive Tic-Tac-Toe game with a smooth UI and real-time gameplay.",
-    img: "/ttt.png",
-    iconLists: ["/HTML.png", "/tail.svg", "/CSS.png", "/Java Script.svg"],
-    link: "https://manojit-tic-tac-toe.netlify.app/",
   },
   {
     id: 4,

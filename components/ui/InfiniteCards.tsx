@@ -12,7 +12,7 @@ export const InfiniteMovingCards = ({
 }: {
   items: {
     name: string;
-    images: string[]; // Corrected the type for images to be an array of strings
+    images: string[]; 
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
