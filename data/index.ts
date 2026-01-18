@@ -52,7 +52,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently crafting the frontend for an innovative Ed-Tech platform.",
+    title:
+      "Currently crafting the frontend for an innovative Ed-Tech platform.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -101,28 +102,50 @@ export const projects = [
     ],
     link: "https://manojit-das-iphone-ui.netlify.app/",
   },
+  // {
+  //   id: 3,
+  //   title: "CaraCart - An Ecommerce Website",
+  //   des: "Developed an e-commerce frontend with responsive design, intuitive navigation, and secure checkout.",
+  //   img: "/caracart.png",
+  //   iconLists: ["/HTML.png", "/tail.svg", "/CSS.png", "/Java Script.svg"],
+  //   link: "https://caracart-manojit-das.netlify.app/",
+  // },
   {
     id: 3,
-    title: "CaraCart - An Ecommerce Website",
-    des: "Developed an e-commerce frontend with responsive design, intuitive navigation, and secure checkout.",
-    img: "/caracart.png",
-    iconLists: ["/HTML.png", "/tail.svg", "/CSS.png", "/Java Script.svg"],
-    link: "https://caracart-manojit-das.netlify.app/",
+    title: "Streamify - Online Chatting Platform",
+    des: "Streamify is a real-time chatting platform that allows users to connect and communicate seamlessly.",
+    img: "/streamify.png",
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/Node.js.svg",
+      "/Mongodb.svg",
+      "/Express.png",
+    ],
+    link: "https://github.com/Manojit-Das-10/Streamify-ChatApp",
   },
+  // {
+  //   id: 4,
+  //   title: "Discord UI- clone",
+  //   des: "Create a Discord UI clone by replicating its layout, styling, and interactive features.",
+  //   img: "discord.png",
+  //   iconLists: ["HTML.png", "/tail.svg", "/CSS.png", "/Java Script.svg"],
+  //   link: "https://manojit-discord-clone.netlify.app/",
+  // },
   {
     id: 4,
-    title: "Discord UI- clone",
-    des: "Create a Discord UI clone by replicating its layout, styling, and interactive features.",
-    img: "discord.png",
-    iconLists: ["HTML.png", "/tail.svg", "/CSS.png", "/Java Script.svg"],
-    link: "https://manojit-discord-clone.netlify.app/",
+    title: "ShowPass - Online Ticket Booking Platform",
+    des: "ShowPass is an online ticket booking platform that allows users to browse and book tickets for various events seamlessly.",
+    img: "showpass.png",
+    iconLists: ["/next.svg", "/tail.svg", "/Mongodb.svg", "dotNET.png"],
+    link: "#",
   },
 ];
 
 export const skills = [
   {
     name: "Programming Language",
-    images: ["C_logo.png", "cpp_logo.png", "Java Script.svg"],
+    images: ["C_logo.png", "cpp_logo.png", "Java Script.svg", "cs.png"],
   },
 
   {
@@ -135,17 +158,17 @@ export const skills = [
       "re.svg",
       "next.svg",
       "gsap.svg",
-      "Chart.js.svg"
+      "Chart.js.svg",
     ],
   },
   {
     name: "Backend Developmnet",
-    images: ["Node.js.svg", "Express.png", "Mongodb.svg"],
+    images: ["Node.js.svg", "Express.png", "Mongodb.svg", "dotNET.png"],
   },
-  
+
   {
     name: "Others",
-    images: ["figma logo.png", "git.svg",'postman.png'],
+    images: ["figma logo.png", "git.svg", "postman.png"],
   },
 ];
 
